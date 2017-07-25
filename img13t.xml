@@ -1,0 +1,250 @@
+<TRIAL ID="img13t" p="2" s="7">
+  <DOMAIN>
+    <ENTITY ID="tg" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+    <ENTITY ID="shop" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="bridge express" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+    <ENTITY ID="building" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+	<ENTITY ID="building2" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+	<ENTITY ID="building3" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+	<ENTITY ID="shop1" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="bridge express" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+	<ENTITY ID="shop2" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="bridge express" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+	<ENTITY ID="building3" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+	<ENTITY ID="shop3" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="bridge express" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+	<ENTITY ID="building3" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+	<ENTITY ID="shop4" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="bridge express" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+	<ENTITY ID="shop5" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="three" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="bridge express" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="signs" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+	<ENTITY ID="car" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="sliver" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="medium" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="vehicle" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="metal / plastic" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+       <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+	  <ATTRIBUTE NAME="location" TYPE="literal" VALUE="infront-of" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="infont-of" REL="building5" />
+    </ENTITY>
+	
+	<ENTITY ID="car2" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="black" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="medium" />
+      <ATTRIBUTE NAME="type" TYP="litEeral" VALUE="vehicle" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="metal / plastic" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+       <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+	  <ATTRIBUTE NAME="location" TYPE="literal" VALUE="infront-of" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="infont-of" REL="building5" />
+    </ENTITY>
+	
+    <ENTITY ID="road sign" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="white / yellow /black" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="road sign" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="plastic" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="center" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="behind-of" REL="road sign" />
+    </ENTITY>
+	
+    <ENTITY ID="road" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="black" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="street" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		   <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+        <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="building3" />
+  </ENTITY>
+	
+  </DOMAIN>
+</TRIAL>

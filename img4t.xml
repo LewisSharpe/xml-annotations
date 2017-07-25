@@ -1,0 +1,170 @@
+<TRIAL ID="img24t" p="1" s="19">
+  <DOMAIN>
+    <ENTITY ID="tg" TYPE="target">
+       <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="white" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="five" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="center" />
+    </ENTITY>
+	
+    <ENTITY ID="building1" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		   <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="eight" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-hand" REL="tg" />
+    </ENTITY>
+	
+	<ENTITY ID="building2" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="white, grey, black, brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		   <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="fifteen" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+        <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="building1" />
+  </ENTITY>
+
+	
+	 <ENTITY ID="pavement" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="black, grey" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="medium" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="stairs" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="behind-of" REL="building2" />
+    </ENTITY> 
+		
+    <ENTITY ID="building3" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="black, grey, white, blue" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="very large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone / wood / metal" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="fourteen" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="two" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="center" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="pavement" />
+    </ENTITY>
+	
+	<ENTITY ID="building4" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="yellow" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="very large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone / wood / metal" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="seventeen" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="two" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="center" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="building3" />
+    </ENTITY>
+	
+	<ENTITY ID="building4" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="yellow" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="very large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone / wood / metal" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="ten" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="two" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="center" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="building3" />
+    </ENTITY>
+   
+
+    <ENTITY ID="metal fence" TYPE="distractor">
+	   <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="black" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="gate / fencing" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="metal" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+   <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+	   <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="building4" />
+    </ENTITY>
+	
+	<ENTITY ID="tree" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="street" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="natural" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="metal fence" />
+    </ENTITY>
+	
+	<ENTITY ID="building5" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="very large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone / wood / metal" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="twelve" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="two" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="center" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="building4" />
+    </ENTITY>
+	
+	
+  </DOMAIN>
+
+</TRIAL>

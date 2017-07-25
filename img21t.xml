@@ -1,0 +1,212 @@
+<TRIAL ID="img21t" p="1" s="19">
+  <DOMAIN>
+    <ENTITY ID="tg" TYPE="target">
+       <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="clear / sliver" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="glass / metal" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="eight" />
+		    <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="festival theatre" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+    </ENTITY>
+	
+    <ENTITY ID="building1" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey / brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		   <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="thirty six" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="rleft-hand" REL="tg" />
+    </ENTITY>
+	
+    <ENTITY ID="ryman shop" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="white, red" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone / wood" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		   <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="four" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="ryman" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-hand" REL="tg" />
+        <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="below" REL="building1" />
+  </ENTITY>
+	
+    <ENTITY ID="shop" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="wine red" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone / wood" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		   <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="four" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+        <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="ryman" />
+  </ENTITY>
+  
+    <ENTITY ID="shop" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="wine red" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone / wood" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		   <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="four" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+        <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="ryman" />
+  </ENTITY>
+	
+	<ENTITY ID="building2" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="white, grey, black, brown" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="building" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		   <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="twenty" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+        <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="left-of" REL="shop" />
+  </ENTITY>
+		
+	<ENTITY ID="bus" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="white, black, wine red" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="vehicle" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="metal / plastic / fabric" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		   <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+        <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="infront-of" REL="building2" />
+  </ENTITY>
+  	
+	<ENTITY ID="car" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="light blue" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="vehicle" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="metal / plastic / fabric" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="one" />
+		   <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="one" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+        <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="infront-of" REL="bus" />
+  </ENTITY>
+  
+	<ENTITY ID="person" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="white" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="person" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="skin / flesh" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="balconies" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="center" REL="car" />
+    </ENTITY>
+	
+	<ENTITY ID="road" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="gray" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="medium" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="street" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="tarmac" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="yes" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="right-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="left-of" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="infront-of" REL="person" />
+    </ENTITY>
+		
+    <ENTITY ID="stairs" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="black, grey" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="medium" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="stairs" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="stone" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="left-of" REL="road" />
+    </ENTITY>
+	
+	<ENTITY ID="person1" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="white" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="person" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="skin / flesh" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="balconies" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="left-of" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="left-of" REL="stairs" />
+    </ENTITY>
+	
+	 <ENTITY ID="construction works" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="black, grey, red" />
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="medium" />
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="stairs" />
+	    <ATTRIBUTE NAME="material" TYPE="literal" VALUE="metal" />
+		 <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+		  <ATTRIBUTE NAME="doors" TYPE="literal" VALUE="null" />
+		    <ATTRIBUTE NAME="name" TYPE="literal" VALUE="null" />
+			  <ATTRIBUTE NAME="historical" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="windows" TYPE="literal" VALUE="null" />
+	   <ATTRIBUTE NAME="line marking" TYPE="literal" VALUE="null" />
+     <ATTRIBUTE NAME="miscellaneous" TYPE="literal" VALUE="null" />
+      <ATTRIBUTE NAME="location" TYPE="literal" VALUE="left-hand" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="right-of" REL="tg" />
+      <ATTRIBUTE NAME="rel_location" TYPE="literal" VALUE="left-of" REL="person1" />
+    </ENTITY> 
+	
+  </DOMAIN>
+
+</TRIAL>
